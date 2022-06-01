@@ -17,9 +17,9 @@ struct Vehicle
     Lane lane;
 };
 
-//*const <=> &const
-//const& = Read-only
-//const* const: Same as const&
+// *const <=> &const
+// const& = Read-only
+// const* const: Same as const&
 
 void print_vehicle_data(const Vehicle &vehicle)
 {

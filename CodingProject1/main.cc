@@ -12,8 +12,13 @@ int main()
 
     for (std::size_t i = 0; i < length; i++)
     {
-        my_array.m_data[i] = static_cast<double>(i);
+        my_array.m_data[i] = i;
     }
+
+    std::cout << "Mean = " << mean(my_array) << std::endl;
+    std::cout << "Median = " << median(my_array) << std::endl;
+    std::cout << "Variance = " << variance(my_array) << std::endl;
+    std::cout << "Stddev = " << stddev(my_array) << std::endl;
 
     return 0;
 }
