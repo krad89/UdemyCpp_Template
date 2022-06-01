@@ -2,7 +2,7 @@
 #include <iostream>
 
 // 1a. C++: static_cast<newDtype> - converts object from one type to another
-// 1b. C: (newDtype)(varName) -
+// 1b. C: (newDtype)(varName)
 // Easier to read, less prone to errors
 
 int main()
